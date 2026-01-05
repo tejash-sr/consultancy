@@ -13,7 +13,7 @@ get_header();
 <section class="hero">
     <div class="hero-content container">
         <h1 class="animate-fade-in-up">Transform Your Business with Cutting-Edge Digital Solutions</h1>
-        <p class="animate-fade-in-up">We craft innovative web, mobile, and AI-powered solutions that drive growth, enhance user experience, and position your brand for the digital future.</p>
+        <p class="animate-fade-in-up" style="font-size: 1.25rem; line-height: 1.8;">We craft innovative web, mobile, and AI-powered solutions that drive growth, enhance user experience, and position your brand for the digital future.</p>
         <div class="hero-buttons animate-fade-in-up">
             <a href="<?php echo esc_url(home_url('/contact')); ?>" class="btn btn-white btn-large">Get Started</a>
             <a href="<?php echo esc_url(home_url('/services')); ?>" class="btn btn-secondary btn-large">Our Services</a>
@@ -25,7 +25,7 @@ get_header();
 <section class="section" id="services">
     <div class="container">
         <h2 class="section-title">Our Expertise</h2>
-        <p class="section-subtitle">We deliver comprehensive digital solutions tailored to your business needs, combining technical excellence with creative innovation.</p>
+        <p class="section-subtitle">Comprehensive digital solutions combining technical excellence with creative innovation to accelerate your business growth.</p>
         
         <div class="services-grid">
             <div class="service-card">
@@ -35,7 +35,7 @@ get_header();
                     </svg>
                 </div>
                 <h3>Web Development</h3>
-                <p>Build powerful, scalable websites and web applications using cutting-edge technologies. From responsive designs to complex enterprise solutions.</p>
+                <p>Build powerful, scalable websites and web applications using cutting-edge technologies. From responsive designs to complex enterprise solutions that drive results.</p>
                 <a href="<?php echo esc_url(home_url('/services#web-development')); ?>" class="service-link">
                     Learn More 
                     <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
@@ -52,7 +52,7 @@ get_header();
                     </svg>
                 </div>
                 <h3>App Development</h3>
-                <p>Native and cross-platform mobile applications that deliver seamless user experiences on iOS and Android devices.</p>
+                <p>Native and cross-platform mobile applications that deliver seamless user experiences on iOS and Android. Turn your app idea into reality.</p>
                 <a href="<?php echo esc_url(home_url('/services#app-development')); ?>" class="service-link">
                     Learn More 
                     <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
@@ -69,7 +69,7 @@ get_header();
                     </svg>
                 </div>
                 <h3>UI/UX Design</h3>
-                <p>Create intuitive, visually stunning interfaces that users love. We combine aesthetics with functionality for optimal engagement.</p>
+                <p>Create intuitive, visually stunning interfaces that users love. We combine aesthetics with functionality to deliver engaging experiences that convert.</p>
                 <a href="<?php echo esc_url(home_url('/services#ui-ux-design')); ?>" class="service-link">
                     Learn More 
                     <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
@@ -87,7 +87,7 @@ get_header();
                     </svg>
                 </div>
                 <h3>AI & Automation</h3>
-                <p>Leverage artificial intelligence and automation to streamline operations, enhance decision-making, and stay ahead of the competition.</p>
+                <p>Leverage artificial intelligence and automation to streamline operations, enhance decision-making, and gain a competitive edge in your industry.</p>
                 <a href="<?php echo esc_url(home_url('/services#ai-consulting')); ?>" class="service-link">
                     Learn More 
                     <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
@@ -128,7 +128,7 @@ get_header();
 <section class="section section-gray">
     <div class="container">
         <h2 class="section-title">What Sets Us Apart</h2>
-        <p class="section-subtitle">We combine technical excellence, creative innovation, and strategic thinking to deliver exceptional results.</p>
+        <p class="section-subtitle">Technical excellence, creative innovation, and strategic thinking combined to deliver exceptional results.</p>
         
         <div class="services-grid">
             <div class="service-card">
@@ -265,7 +265,7 @@ get_header();
 <section class="section">
     <div class="container">
         <h2 class="section-title">What Our Clients Say</h2>
-        <p class="section-subtitle">Don't just take our word for it - hear from businesses that have transformed their digital presence with us.</p>
+        <p class="section-subtitle">Real success stories from businesses that transformed their digital presence with our solutions.</p>
         
         <div class="testimonials-grid">
             <div class="testimonial-card">

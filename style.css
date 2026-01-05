@@ -62,8 +62,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-primary);
 }
 
-h1 { font-size: 3.5rem; }
-h2 { font-size: 2.5rem; }
+h1 { font-size: 3.5rem; letter-spacing: -0.02em; }
+h2 { font-size: 2.5rem; letter-spacing: -0.01em; }
 h3 { font-size: 2rem; }
 h4 { font-size: 1.5rem; }
 h5 { font-size: 1.25rem; }
@@ -73,6 +73,7 @@ p {
     margin-bottom: 1rem;
     color: var(--text-secondary);
     font-size: 1.125rem;
+    line-height: 1.75;
 }
 
 a {
@@ -241,8 +242,8 @@ img {
 
 .btn-primary:hover {
     background-color: var(--secondary-color);
-    box-shadow: var(--shadow-lg);
-    transform: translateY(-2px);
+    box-shadow: var(--shadow-xl);
+    transform: translateY(-3px);
     color: white;
 }
 
@@ -364,7 +365,7 @@ img {
 }
 
 .service-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-12px);
     box-shadow: var(--shadow-xl);
 }
 
@@ -610,7 +611,8 @@ img {
 .form-group select:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.1);
+    box-shadow: 0 0 0 4px rgba(26, 115, 232, 0.15);
+    transform: translateY(-1px);
 }
 
 .form-group textarea {

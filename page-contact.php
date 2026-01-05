@@ -10,10 +10,10 @@ get_header();
 ?>
 
 <!-- Page Header -->
-<section class="hero" style="min-height: 50vh; padding-top: 8rem;">
+<section class="hero" style="min-height: 55vh; padding-top: 8rem;">
     <div class="hero-content container">
-        <h1 class="animate-fade-in-up">Get in Touch</h1>
-        <p class="animate-fade-in-up">Have a project in mind? Let's discuss how we can help you achieve your goals.</p>
+        <h1 class="animate-fade-in-up">Let's Build Something Amazing Together</h1>
+        <p class="animate-fade-in-up" style="font-size: 1.25rem; max-width: 700px; margin: 1rem auto;">Ready to transform your digital presence? Get in touch with our expert team and let's turn your vision into reality.</p>
     </div>
 </section>
 
@@ -23,8 +23,8 @@ get_header();
         <div class="contact-wrapper">
             <!-- Contact Information -->
             <div class="contact-info">
-                <h2>Let's Talk About Your Project</h2>
-                <p>We're here to answer your questions and discuss how our expertise can drive your business forward. Reach out to us through any of the channels below or fill out the contact form.</p>
+                <h2>Let's Start a Conversation</h2>
+                <p style="font-size: 1.1rem; line-height: 1.8;">Whether you're looking to launch a new project, scale your existing digital presence, or explore innovative solutions, we're here to help. Our team of experts is ready to discuss your unique needs and craft a strategy that delivers results.</p>
                 
                 <div class="contact-details">
                     <div class="contact-item">
@@ -36,7 +36,7 @@ get_header();
                         </div>
                         <div>
                             <h4>Our Office</h4>
-                            <p>123 Business Street<br>Tech City, TC 12345<br>United States</p>
+                            <p>Tech Innovation Hub<br>Silicon Valley, CA 94025<br>United States</p>
                         </div>
                     </div>
 
@@ -48,7 +48,7 @@ get_header();
                         </div>
                         <div>
                             <h4>Phone</h4>
-                            <p>+1 (234) 567-8900<br>Mon-Fri, 9AM-6PM EST</p>
+                            <p>+1 (888) 555-0100<br>Available Mon-Fri, 9AM-6PM PST</p>
                         </div>
                     </div>
 
@@ -61,7 +61,7 @@ get_header();
                         </div>
                         <div>
                             <h4>Email</h4>
-                            <p>contact@youragency.com<br>support@youragency.com</p>
+                            <p>hello@youragency.com<br>projects@youragency.com</p>
                         </div>
                     </div>
 
@@ -108,7 +108,8 @@ get_header();
 
             <!-- Contact Form -->
             <div class="contact-form">
-                <h3 style="margin-bottom: 1.5rem; font-size: 1.75rem;">Send Us a Message</h3>
+                <h3 style="margin-bottom: 0.75rem; font-size: 1.75rem;">Send Us a Message</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 2rem;">Fill out the form below and our team will get back to you within 24 hours.</p>
                 
                 <div id="formMessage" class="form-message"></div>
                 
@@ -118,27 +119,23 @@ get_header();
                     
                     <div class="form-group">
                         <label for="name">Full Name <span style="color: var(--error-color);">*</span></label>
-                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
                     </div>
-
                     <div class="form-group">
                         <label for="email">Email Address <span style="color: var(--error-color);">*</span></label>
-                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        <input type="email" id="email" name="email" required placeholder="your.email@company.com">
                     </div>
-
                     <div class="form-group">
                         <label for="phone">Phone Number <span style="color: var(--error-color);">*</span></label>
-                        <input type="tel" id="phone" name="phone" required placeholder="+1 (234) 567-8900">
+                        <input type="tel" id="phone" name="phone" required placeholder="+1 (555) 000-0000">
                     </div>
-
                     <div class="form-group">
                         <label for="company">Company Name</label>
-                        <input type="text" id="company" name="company" placeholder="Your Company">
+                        <input type="text" id="company" name="company" placeholder="Your Company (Optional)">
                     </div>
-
                     <div class="form-group">
-                        <label for="message">Message <span style="color: var(--error-color);">*</span></label>
-                        <textarea id="message" name="message" required placeholder="Tell us about your project..."></textarea>
+                        <label for="message">Project Details <span style="color: var(--error-color);">*</span></label>
+                        <textarea id="message" name="message" required placeholder="Tell us about your project, goals, timeline, and budget..."></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary" style="width: 100%;" id="submitBtn">
@@ -159,18 +156,18 @@ get_header();
 <!-- Map Section (Optional) -->
 <section class="section section-gray">
     <div class="container">
-        <h2 class="section-title">Find Us</h2>
-        <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow-lg); text-align: center; min-height: 400px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-            <svg width="64" height="64" fill="var(--primary-color)" viewBox="0 0 24 24" style="margin-bottom: 1rem;">
+        <h2 class="section-title">Visit Our Office</h2>
+        <p class="section-subtitle">Schedule a meeting with our team to discuss your project in person</p>
+        <div style="background: white; padding: 3rem; border-radius: 1rem; box-shadow: var(--shadow-lg); text-align: center; min-height: 400px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <svg width="64" height="64" fill="var(--primary-color)" viewBox="0 0 24 24" style="margin-bottom: 1.5rem;">
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                 <circle cx="12" cy="10" r="3"/>
             </svg>
-            <h3>Visit Our Office</h3>
-            <p style="max-width: 500px; margin: 1rem auto;">
-                We'd love to meet you in person! Our team is available for consultations and meetings at our office. 
-                Please schedule an appointment to ensure we can give you our full attention.
+            <h3 style="margin-bottom: 1rem;">Prefer Face-to-Face?</h3>
+            <p style="max-width: 600px; margin: 0 auto 1.5rem; font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary);">
+                We believe in building strong relationships. Visit us at our office for a coffee and let's discuss how we can bring your vision to life. Our space is designed for collaboration and innovation.
             </p>
-            <a href="<?php echo esc_url(home_url('/contact')); ?>" class="btn btn-primary" style="margin-top: 1rem;">Schedule a Meeting</a>
+            <a href="<?php echo esc_url(home_url('/contact')); ?>" class="btn btn-primary">Schedule a Visit</a>
         </div>
     </div>
 </section>
@@ -179,27 +176,23 @@ get_header();
 <section class="section">
     <div class="container">
         <h2 class="section-title">Frequently Asked Questions</h2>
-        <p class="section-subtitle">Quick answers to common questions about our services and process.</p>
-        
-        <div style="max-width: 800px; margin: 0 auto;">
+        <p class="section-subtitle">Quick answers to help you understand our process better</p>
+        <div style="max-width: 900px; margin: 0 auto;">
             <div class="service-card" style="margin-bottom: 1.5rem;">
-                <h4 style="margin-bottom: 0.75rem;">How long does a typical project take?</h4>
-                <p>Project timelines vary based on scope and complexity. A typical website takes 4-8 weeks, while more complex applications may take 3-6 months. We'll provide a detailed timeline during our initial consultation.</p>
+                <h4 style="margin-bottom: 0.75rem;">How quickly can we start?</h4>
+                <p>We can typically kick off projects within 1-2 weeks after our initial consultation. For urgent projects, we offer expedited onboarding to get you up and running faster.</p>
             </div>
-
             <div class="service-card" style="margin-bottom: 1.5rem;">
-                <h4 style="margin-bottom: 0.75rem;">What is your pricing structure?</h4>
-                <p>We offer flexible pricing based on project requirements. We can work on fixed-price projects, hourly rates, or retainer agreements. Contact us for a customized quote tailored to your specific needs.</p>
+                <h4 style="margin-bottom: 0.75rem;">What's your typical project timeline?</h4>
+                <p>Timelines vary by project scope. A standard website takes 4-6 weeks, mobile apps 8-12 weeks, and enterprise solutions 3-6 months. We provide detailed timelines during discovery.</p>
             </div>
-
             <div class="service-card" style="margin-bottom: 1.5rem;">
-                <h4 style="margin-bottom: 0.75rem;">Do you provide ongoing support?</h4>
-                <p>Yes! We offer comprehensive maintenance and support packages to ensure your solution continues to perform optimally. We're available 24/7 for critical issues.</p>
+                <h4 style="margin-bottom: 0.75rem;">How do you handle pricing?</h4>
+                <p>We offer transparent, customized pricing based on your specific requirements. Choose from fixed-price projects, monthly retainers, or flexible hourly arrangements that fit your budget.</p>
             </div>
-
             <div class="service-card">
-                <h4 style="margin-bottom: 0.75rem;">Can you work with our existing systems?</h4>
-                <p>Absolutely! We specialize in integrating new solutions with existing systems and can work with a wide variety of platforms, databases, and third-party services.</p>
+                <h4 style="margin-bottom: 0.75rem;">What support do you provide after launch?</h4>
+                <p>We offer comprehensive post-launch support including maintenance, updates, monitoring, and optimization. Our team is available 24/7 for critical issues to ensure your solution runs smoothly.</p>
             </div>
         </div>
     </div>
